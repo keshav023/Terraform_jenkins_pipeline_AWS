@@ -10,9 +10,7 @@ resource "aws_instance" "foo" {
   }
 }
 
-resource "aws_s3_bucket" "my_bucket" {
-
-  bucket = "terraform_s3_bucket_testing123"  
- 
-
+resource "aws_s3_bucket" "example" {
+  bucket = "terraform-example-bucket123" 
+  acl    = "private"
 }
