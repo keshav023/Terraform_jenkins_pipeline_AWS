@@ -12,7 +12,7 @@ resource "aws_instance" "foo" {
 
 resource "aws_s3_bucket" "my_bucket" {
 
-  bucket = "Terraform_s3_bucket_Testing"  
+  bucket = "terraform_s3_bucket_Testing123"  
  
 
 }
